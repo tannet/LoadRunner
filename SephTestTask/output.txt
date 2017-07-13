@@ -1,0 +1,118 @@
+Virtual User Script started at : 7/12/2017 4:57:11 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.53.0 for Windows 10; build 1203 (èþë 12 2017 19:13:20)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Users\Hanna_Tarletskaya\LoadRunner-data\scripts\Sephora - Copy\Sephora_TestScript\\default.cfg"  	[MsgId: MMSG-27141]
+vuser_init.c(4): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+vuser_init.c(4): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Warning -27077: The "vuser_init" section contains web function(s) when the "Simulate a new user on each iteration" Run-Time Setting is ON.  This may produce unpredictable results with multiple iterations  	[MsgId: MWAR-27077]
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action MyAction.
+MyAction.c(88): Notify: Transaction "001_OpenHomePage" started.
+MyAction.c(92): web_add_header("User-Agent") started  	[MsgId: MMSG-26355]
+MyAction.c(92): web_add_header("User-Agent") was successful  	[MsgId: MMSG-26392]
+MyAction.c(93): web_custom_request("001_OpenHomePage") started  	[MsgId: MMSG-26355]
+MyAction.c(93): web_custom_request("001_OpenHomePage") was successful, 33388 body bytes, 440 header bytes  	[MsgId: MMSG-26386]
+MyAction.c(103): Notify: Transaction "001_OpenHomePage" ended with a "Pass" status (Duration: 0.3728 Wasted Time: 0.0710).
+MyAction.c(225): Notify: Transaction "004_Search" started.
+MyAction.c(251): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
+MyAction.c(251): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
+MyAction.c(252): web_reg_save_param started  	[MsgId: MMSG-26355]
+MyAction.c(252): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+MyAction.c(257): web_add_header("User-Agent") started  	[MsgId: MMSG-26355]
+MyAction.c(257): web_add_header("User-Agent") was successful  	[MsgId: MMSG-26392]
+MyAction.c(258): web_custom_request("004_Search") started  	[MsgId: MMSG-26355]
+MyAction.c(258): web_custom_request("004_Search") was successful, 44009 body bytes, 697 header bytes  	[MsgId: MMSG-26386]
+MyAction.c(268): lr_eval_json succeed
+MyAction.c(270): lr_json_get_values succeed, 1 match
+MyAction.c(274): lr_json_get_values succeed, 1 match
+MyAction.c(291): lr_json_get_values succeed, 1 match
+MyAction.c(295): lr_json_get_values succeed, 1 match
+MyAction.c(299): lr_json_get_values succeed, 1 match
+MyAction.c(305): Notify: Transaction "004_Search" ended with a "Pass" status (Duration: 0.7993 Wasted Time: 0.0148).
+MyAction.c(312): Notify: Transaction "005_OpenItem" started.
+MyAction.c(314): web_add_header("User-Agent") started  	[MsgId: MMSG-26355]
+MyAction.c(314): web_add_header("User-Agent") was successful  	[MsgId: MMSG-26392]
+MyAction.c(315): web_custom_request("005_OpenItem") started  	[MsgId: MMSG-26355]
+MyAction.c(315): web_custom_request("005_OpenItem") was successful, 37941 body bytes, 616 header bytes  	[MsgId: MMSG-26386]
+MyAction.c(324): Notify: Transaction "005_OpenItem" ended with a "Pass" status (Duration: 0.5106 Wasted Time: 0.0066).
+MyAction.c(334): Notify: Transaction "006_AddItemToCart" started.
+MyAction.c(336): web_add_header("User-Agent") started  	[MsgId: MMSG-26355]
+MyAction.c(336): web_add_header("User-Agent") was successful  	[MsgId: MMSG-26392]
+MyAction.c(337): web_custom_request("006_AddItemToCart") started  	[MsgId: MMSG-26355]
+MyAction.c(337): web_custom_request("006_AddItemToCart") was successful, 627 body bytes, 674 header bytes  	[MsgId: MMSG-26386]
+MyAction.c(348): Notify: Transaction "006_AddItemToCart" ended with a "Pass" status (Duration: 0.2199 Wasted Time: 0.0027).
+MyAction.c(334): Notify: Transaction "006_AddItemToCart" started.
+MyAction.c(336): web_add_header("User-Agent") started  	[MsgId: MMSG-26355]
+MyAction.c(336): web_add_header("User-Agent") was successful  	[MsgId: MMSG-26392]
+MyAction.c(337): web_custom_request("006_AddItemToCart") started  	[MsgId: MMSG-26355]
+MyAction.c(337): web_custom_request("006_AddItemToCart") was successful, 629 body bytes, 625 header bytes  	[MsgId: MMSG-26386]
+MyAction.c(348): Notify: Transaction "006_AddItemToCart" ended with a "Pass" status (Duration: 0.2174 Wasted Time: 0.0021).
+MyAction.c(334): Notify: Transaction "006_AddItemToCart" started.
+MyAction.c(336): web_add_header("User-Agent") started  	[MsgId: MMSG-26355]
+MyAction.c(336): web_add_header("User-Agent") was successful  	[MsgId: MMSG-26392]
+MyAction.c(337): web_custom_request("006_AddItemToCart") started  	[MsgId: MMSG-26355]
+MyAction.c(337): web_custom_request("006_AddItemToCart") was successful, 658 body bytes, 625 header bytes  	[MsgId: MMSG-26386]
+MyAction.c(348): Notify: Transaction "006_AddItemToCart" ended with a "Pass" status (Duration: 0.5490 Wasted Time: 0.0019).
+MyAction.c(334): Notify: Transaction "006_AddItemToCart" started.
+MyAction.c(336): web_add_header("User-Agent") started  	[MsgId: MMSG-26355]
+MyAction.c(336): web_add_header("User-Agent") was successful  	[MsgId: MMSG-26392]
+MyAction.c(337): web_custom_request("006_AddItemToCart") started  	[MsgId: MMSG-26355]
+MyAction.c(337): web_custom_request("006_AddItemToCart") was successful, 659 body bytes, 625 header bytes  	[MsgId: MMSG-26386]
+MyAction.c(348): Notify: Transaction "006_AddItemToCart" ended with a "Pass" status (Duration: 0.2033 Wasted Time: 0.0018).
+MyAction.c(334): Notify: Transaction "006_AddItemToCart" started.
+MyAction.c(336): web_add_header("User-Agent") started  	[MsgId: MMSG-26355]
+MyAction.c(336): web_add_header("User-Agent") was successful  	[MsgId: MMSG-26392]
+MyAction.c(337): web_custom_request("006_AddItemToCart") started  	[MsgId: MMSG-26355]
+MyAction.c(337): web_custom_request("006_AddItemToCart") was successful, 659 body bytes, 625 header bytes  	[MsgId: MMSG-26386]
+MyAction.c(348): Notify: Transaction "006_AddItemToCart" ended with a "Pass" status (Duration: 0.2243 Wasted Time: 0.0017).
+MyAction.c(334): Notify: Transaction "006_AddItemToCart" started.
+MyAction.c(336): web_add_header("User-Agent") started  	[MsgId: MMSG-26355]
+MyAction.c(336): web_add_header("User-Agent") was successful  	[MsgId: MMSG-26392]
+MyAction.c(337): web_custom_request("006_AddItemToCart") started  	[MsgId: MMSG-26355]
+MyAction.c(337): web_custom_request("006_AddItemToCart") was successful, 659 body bytes, 625 header bytes  	[MsgId: MMSG-26386]
+MyAction.c(348): Notify: Transaction "006_AddItemToCart" ended with a "Pass" status (Duration: 0.2077 Wasted Time: 0.0017).
+MyAction.c(334): Notify: Transaction "006_AddItemToCart" started.
+MyAction.c(336): web_add_header("User-Agent") started  	[MsgId: MMSG-26355]
+MyAction.c(336): web_add_header("User-Agent") was successful  	[MsgId: MMSG-26392]
+MyAction.c(337): web_custom_request("006_AddItemToCart") started  	[MsgId: MMSG-26355]
+MyAction.c(337): web_custom_request("006_AddItemToCart") was successful, 660 body bytes, 625 header bytes  	[MsgId: MMSG-26386]
+MyAction.c(348): Notify: Transaction "006_AddItemToCart" ended with a "Pass" status (Duration: 0.2211 Wasted Time: 0.0025).
+MyAction.c(334): Notify: Transaction "006_AddItemToCart" started.
+MyAction.c(336): web_add_header("User-Agent") started  	[MsgId: MMSG-26355]
+MyAction.c(336): web_add_header("User-Agent") was successful  	[MsgId: MMSG-26392]
+MyAction.c(337): web_custom_request("006_AddItemToCart") started  	[MsgId: MMSG-26355]
+MyAction.c(337): web_custom_request("006_AddItemToCart") was successful, 660 body bytes, 625 header bytes  	[MsgId: MMSG-26386]
+MyAction.c(348): Notify: Transaction "006_AddItemToCart" ended with a "Pass" status (Duration: 0.2073 Wasted Time: 0.0023).
+MyAction.c(334): Notify: Transaction "006_AddItemToCart" started.
+MyAction.c(336): web_add_header("User-Agent") started  	[MsgId: MMSG-26355]
+MyAction.c(336): web_add_header("User-Agent") was successful  	[MsgId: MMSG-26392]
+MyAction.c(337): web_custom_request("006_AddItemToCart") started  	[MsgId: MMSG-26355]
+MyAction.c(337): web_custom_request("006_AddItemToCart") was successful, 660 body bytes, 625 header bytes  	[MsgId: MMSG-26386]
+MyAction.c(348): Notify: Transaction "006_AddItemToCart" ended with a "Pass" status (Duration: 0.2165 Wasted Time: 0.0021).
+MyAction.c(334): Notify: Transaction "006_AddItemToCart" started.
+MyAction.c(336): web_add_header("User-Agent") started  	[MsgId: MMSG-26355]
+MyAction.c(336): web_add_header("User-Agent") was successful  	[MsgId: MMSG-26392]
+MyAction.c(337): web_custom_request("006_AddItemToCart") started  	[MsgId: MMSG-26355]
+MyAction.c(337): web_custom_request("006_AddItemToCart") was successful, 659 body bytes, 626 header bytes  	[MsgId: MMSG-26386]
+MyAction.c(348): Notify: Transaction "006_AddItemToCart" ended with a "Pass" status (Duration: 0.2538 Wasted Time: 0.0026).
+MyAction.c(355): Notify: Transaction "007_CheckBasket" started.
+MyAction.c(357): web_reg_save_param started  	[MsgId: MMSG-26355]
+MyAction.c(357): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+MyAction.c(363): web_add_header("User-Agent") started  	[MsgId: MMSG-26355]
+MyAction.c(363): web_add_header("User-Agent") was successful  	[MsgId: MMSG-26392]
+MyAction.c(364): web_custom_request("007_CheckBasket") started  	[MsgId: MMSG-26355]
+MyAction.c(364): web_custom_request("007_CheckBasket") was successful, 942 body bytes, 454 header bytes  	[MsgId: MMSG-26386]
+MyAction.c(372): lr_eval_json succeed
+MyAction.c(375): lr_json_get_values succeed, 1 match
+MyAction.c(383): Notify: Transaction "007_CheckBasket" ended with a "Pass" status (Duration: 0.2059 Wasted Time: 0.0017).
+Ending action MyAction.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

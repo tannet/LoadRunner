@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Hanna_Tarletskaya\LoadRunner-data\scripts\Sephora - Copy\Sephora_TestScript
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ec:\users\hanna_tarletskaya\loadrunner-data\scripts\sephora - copy\sephora_testscript\\logfile.log
+c:\users\hanna_tarletskaya\loadrunner-data\scripts\sephora - copy\sephora_testscript\\combined_Sephora_TestScript_copy.c
+c:\users\hanna_tarletskaya\loadrunner-data\scripts\sephora - copy\sephora_testscript\\pre_cci.c

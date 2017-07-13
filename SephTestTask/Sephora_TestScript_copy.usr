@@ -1,0 +1,72 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=Sephora_TestScript.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=12
+MinorVersion=53
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=12.53.0.1203
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=12.53.0.1203
+DisableRegenerate=0
+Description=
+ScriptLocale=en-US
+[Actions]
+vuser_init=vuser_init.c
+ScriptScenario=ScriptScenario.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=1
+ScriptScenario=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+ScriptScenario=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+ScriptScenario=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+ScriptScenario=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="001_OpenHomePage__*delimiter*__002_OpenCategory__*delimiter*__003_OpenSubcategory__*delimiter*__004_Search__*delimiter*__005_OpenItem__*delimiter*__006_AddItemToCart__*delimiter*__007_CheckBasket"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+001_OpenHomePage=
+002_OpenCategory=
+003_OpenSubcategory=
+004_Search=
+005_OpenItem=
+006_AddItemToCart=
+007_CheckBasket=
+[ParameterSimulation]
+NumVusers=2
+IsDurationIndefinite=0
+NumIterationsUntilCompletion=2
+IterationFromRTS=0
+NumIterationIndefinitely=3
